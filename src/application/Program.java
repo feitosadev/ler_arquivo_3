@@ -9,6 +9,8 @@ public class Program {
 	public static void main(String[] args) {
 		
 		String path = "E:\\Programação//in.txt";
+		//FileReader fileReader = null;
+		//BufferedReader bufferReader = null;
 		
 		try (BufferedReader bufferReader = new BufferedReader(new FileReader(path))){
 			
